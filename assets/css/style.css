@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    box-sizing:border-box;
+    
+}
+
+:root{
+    --color-primiry: #003459;
+
+    --color-dark-1: #002A48;
+    --color-dark-2: #242B33;
+    --color-dark-3: #00171F;
+    --color-dark-4: #667479;
+  
+    --font-1 : "Be Vietnam Pro", sans-serif;
+}
+
+body{
+    font-family: var(--font-1);
+    margin: 0;
+}
+a {
+    text-decoration:none;
+}
+ul {
+    padding:0;
+    list-style-type:none;
+}
+
+.container{
+    width:1180px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/* Button  */
+.button {
+    background-color: var(--color-primiry);
+    border-radius:57px;
+    padding: 12px 28px;
+    color:#FDFDFD;
+    font-size:16px;
+    font-weight: 700;
+    cursor:pointer;
+}
+/* End Button  */
+
+/* Header  */
+.header .inner-wrap{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 30px 0;
+}
+
+.header .logo {
+    height: 40px;
+    width:auto;
+    margin-right: 24px;
+}
+
+.header .menu-list{
+    display:flex;
+    justify-content: space-between;
+} 
+.header .menu-list  li{
+    margin:0 24px;
+}
+.header .menu-list  a {
+    font-size: 16px;
+    color:var(--color-primiry);
+    font-weight:700;
+}
+.header .inner-search {
+    flex:1;
+    height:44px;
+    border-radius: 46px;
+    background-color:#F3F3F3;
+    padding: 12px 0 12px 48px;
+    position:relative;
+    margin-right: 14px;
+    margin-left:24px;
+}
+
+.header .inner-search input {
+    font-size: 14px;
+    font-weight: 500;
+    outline:0;
+    color:#99A2A5;
+    border:0;
+    background-color:transparent;
+}
+.header .inner-search button {
+    background-color:transparent;
+    font-size:17px;
+    border:0;
+    position:absolute;
+    top:12px;
+    left:10px;
+    cursor:pointer;
+}
+/* End Header  */
