@@ -365,6 +365,7 @@ ul {
     margin-left: 18px;
 }
 /* End Section 3  */
+/* Section 4  */
 .section-4 {
     padding-bottom: 60px;    
 }
@@ -417,3 +418,127 @@ ul {
     overflow: hidden;
     line-clamp: 3;
 }
+/* End section 4  */
+
+/* .section-5  */
+.section-5 {
+    background-color: #FCEED3; 
+    border-radius: 30px 30px 0 0;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.section-5 .top {
+    background-color:var(--color-primiry);
+    border-radius:16px;
+    display:flex;
+    align-items:center;
+    padding: 32px;
+}
+.section-5 .top .title {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform:capitalize;
+    margin-right:20px;
+    width: 40%;
+}
+.section-5 .top .registeer-form {
+    flex:1;
+    background-color: white;
+    border-radius: 14px;
+    padding: 12px;
+    display:flex;
+}
+.section-5 .top  .input {
+    padding: 14px 28px;
+    font-size: 14px;
+    font-weight: 500;
+    color:#99A2A5;
+    border: 1.5px solid #99A2A5;
+    outline:0;
+    border-radius: 8px;
+    flex:1;
+    margin-right: 12px;
+}
+.section-5 .top  .button-form {
+    /* width: 20%; */
+    background-color:var(--color-primiry);
+    font-size: 16px;
+    font-weight:500;
+    color:white;
+    text-transform:capitalize;
+    padding:12px 28px;
+    border-radius: 8px;
+}
+
+.section-5 .middle {
+    display:flex;
+    justify-content:space-between;
+    padding: 40px 0;
+    border-bottom: 1.5px solid #CCD1D2;
+}
+.section-5 .middle .menu-list {
+    display: flex;
+}
+.section-5 .middle .menu-list li {
+    margin-right: 60px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.section-5 .middle .menu-list li:last-child{
+    margin-right:0;
+}
+.section-5 .middle .menu-list a{
+    color:var(--color-dark-3);
+}
+.section-5 .middle .social-list {
+    display: flex;
+}
+
+.section-5 .middle .social-list  li {
+    margin-left:40px;
+    font-size: 24px;
+    
+}
+.section-5 .middle .social-list a {
+    color:var(--color-dark-3);
+}
+.section-5 .middle .social-list  li:first-child{
+    margin-left:0;
+}
+.section-5 .bottom {
+    margin-top: 40px;
+    display:flex;
+    align-items:center;
+}
+.section-5 .bottom .logo{
+    width: 20%;
+    text-align:center;
+    order:2;
+}
+.section-5 .bottom .copy-right {
+    width: 40%;
+    text-align:left;
+    order:1;
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--color-dark-4);
+}
+.section-5 .bottom  .policy {
+    width:40%;
+    /* text-align:right; */
+    order:3;
+    display:flex;
+    justify-content:flex-end;
+}
+.section-5 .bottom  .policy a {
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--color-dark-4);
+}
+.section-5 .bottom  .policy a:last-child {
+    margin-left:32px;
+}
+/* .section-5 . */
+/* .section-5  */
