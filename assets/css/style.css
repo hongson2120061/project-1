@@ -468,8 +468,7 @@ ul {
 
 /* Section 3  */
 .section-3{
-    padding-bottom:37px;
-    /* padding-bottom:36px; */
+    padding-bottom:36px;
 }
 .section-3 .inner-wrap {
     background-image:url(../images/section-3-bg-1.svg);
