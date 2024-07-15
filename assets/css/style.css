@@ -264,7 +264,9 @@ ul {
     border-radius: 20px;
     overflow:hidden;
     margin-bottom:16px;
-    
+    aspect-ratio:1/1;
+    object-fit:cover;
+    overflow:hidden;
 }
 .section-2 .inner-image img {
    width: 100%;
@@ -540,5 +542,5 @@ ul {
 .section-5 .bottom  .policy a:last-child {
     margin-left:32px;
 }
-/* .section-5 . */
+
 /* .section-5  */
